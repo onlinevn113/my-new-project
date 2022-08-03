@@ -19,6 +19,8 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 
 @Component
 public class Test1 {
+	void master() {
+	}
 
 	public static byte[] test1() {
 		File reportFile = new File("");
