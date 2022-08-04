@@ -19,6 +19,9 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 
 @Component
 public class Test1 {
+	
+	
+	
 	public static byte[] test1() {
 		File reportFile = new File("");
 		Map parameters = new HashMap();
@@ -34,7 +37,7 @@ public class Test1 {
 	public static void test2() {
 		String fileName = "E:\\\\report7.jrxml";
 		String outFileName = "E:\\\\report7.pdf";
-		HashMap hm = new HashMap();
+		HashMap hm = new HashMap();a
 		try {
 
 			JasperDesign jasperDesign = JRXmlLoader.load(fileName);
