@@ -37,7 +37,7 @@ public class Test1 {
 	public static void test2() {
 		String fileName = "E:\\\\report7.jrxml";
 		String outFileName = "E:\\\\report7.pdf";
-		HashMap hm = new HashMap();a
+		HashMap hm = new HashMap();
 		try {
 
 			JasperDesign jasperDesign = JRXmlLoader.load(fileName);
